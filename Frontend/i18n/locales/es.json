@@ -1,0 +1,108 @@
+{
+    "nav": {
+        "title": "Buscaminas",
+        "login": "Iniciar sesión",
+        "register": "Registrarse",
+        "ranking": "Ver ranking",
+        "logout": "Cerrar sesión",
+        "menu": "Menú"  
+    },
+    "header": {
+        "reset": "Reiniciar",
+        "settings": "Abrir configuraciones",
+        "help": "Pedir ayuda"
+    },
+    "difficultySelector": {
+        "easy": "Principiante",
+        "easyTitle": "Tablero 9x9, 10 minas",
+        "intermediate": "Intermedio",
+        "intermediateTitle": "Tablero 16x16, 40 minas",
+        "expert": "Experto",
+        "expertTitle": "Tablero 30x16, 99 minas",
+        "rowsTitle": "Filas",
+        "colsTitle": "Columnas",
+        "minesTitle": "Minas",
+        "updateTitle": "Actualizar"
+    },
+    "gameSettings": {
+        "setting": "Configuraciones",
+        "update": "Actualizar",
+        "close": "Cerrar",
+        "firstClick": "Primer clic en casilla vacia",
+        "interrogations": "Símbolos '?' activados",
+        "language": "Idioma",
+        "spanish": "ES",
+        "english": "EN",
+        "theme": "Tema"
+    },
+    "languageSelector": {
+        "changeLanguage": "EN",
+        "changeLanguageTitle": "Cambiar idioma a Inglés"
+    },
+    "themeSelector": {
+        "light": "Claro",
+        "dark": "Oscuro",
+        "themeSelectorTitle": "Cambiar tema"
+    },  
+    "login": {
+        "title": "Iniciar sesión",
+        "username": "Nombre de usuario",
+        "password": "Contraseña",
+        "submit": "Iniciar sesión",
+        "register": "Registrarse",
+        "show": "Mostrar",
+        "hide": "Ocultar",
+        "failedLogin": "El inicio de sesión falló, pruebe de nuevo",
+        "failedRegister": "El registro falló, pruebe de nuevo",
+        "emptyUsername": "El nombre de usuario es requerido",
+        "emptyPassword": "La contraseña es requerida",
+        "strongPassword": "La contraseña no es lo suficientemente fuerte",
+        "longUsername": "El nombre de usuario no puede tener más de 15 caracteres"
+    },
+    "helpMessage": {
+        "firstClick": "Iniciar el juego",
+        "noHelp": "No hay ayudas"
+    },
+    "finishGame": {
+        "win": "GANASTE",
+        "continue": "Continuar",
+        "time": "Tiempo",
+        "bestTime": "Mejor tiempo personal",
+        "newBestTime": "Nuevo mejor tiempo personal",
+        "bestTimeGlobal": "Mejor tiempo mundial",
+        "newBestTimeGlobal": "Nuevo mejor tiempo mundial",
+        "help": "Ayudas",
+        "helpTitle": "Ayudas usadas",
+        "3bv": "3BV",
+        "3bvTitle": "3BV es el número de clics mínimos necesarios para completar la partida",
+        "clicks": "Clicks",
+        "clicksTitle": "Número de clicks",
+        "efficiency": "Eficiencia",
+        "efficiencyTitle": "Eficiencia de los clics (3BV / clicks)",
+        "noAuth": "Para guardar la partida Iniciar Sesión o Registrarse"
+    },
+    "ranking": {
+        "username": "Usuario",
+        "date": "Fecha",
+        "stats": "Estadísticas",
+        "rows": "Filas",
+        "cols": "Columnas",
+        "mines": "Minas",
+        "update": "Actualizar",
+        "noGames": "No se encontraron partidas",
+        "lookStats": "Ver",
+        "bestTime": "Estadísticas de la mejor partida",
+        "randomTime": "Estadísticas de la partida ranking Nº",
+        "personalRanking": "Ranking personal",
+        "globalRanking": "Ranking mundial",
+        "orderBy": "Ordenar por",
+        "position": "Mi posición",
+        "errorMessage": "Error al cargar el ranking, por favor intente de nuevo"
+    },
+    "loading": {
+        "loading": "Cargando"
+    },
+    "error": {
+        "goHome": "Ir al Inicio"
+    }
+}
