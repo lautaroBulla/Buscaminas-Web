@@ -1,0 +1,17 @@
+.classicTheme {
+  --background-color: #C0C0C0;
+
+  --border-light-color: #FFFFFF;
+  --border-dark-color: #808080;
+
+  --opacity: 0.8; 
+
+  --numbers-panel-background: #000;
+  --seven-segment-color: 255, 0, 0;
+
+  --reveal-lose-background: #ff0000;
+
+  --text-color: #000000;
+
+  --help-color: 51, 51, 51;
+}

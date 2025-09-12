@@ -1,0 +1,108 @@
+{
+    "nav": {
+        "title": "Minesweeper",
+        "login": "Login",
+        "register": "Register",
+        "ranking": "View ranking",
+        "logout": "Logout",
+        "menu": "Menu"  
+    },
+    "header": {
+        "reset": "Reset",
+        "settings": "Open settings",
+        "help": "Ask for help"
+    },
+    "difficultySelector": {
+        "easy": "Beginner",
+        "easyTitle": "Board 9x9, 10 mines",
+        "intermediate": "Intermediate",
+        "intermediateTitle": "Board 16x16, 40 mines",
+        "expert": "Expert",
+        "expertTitle": "Board 30x16, 99 mines",
+        "rowsTitle": "Rows",
+        "colsTitle": "Cols",
+        "minesTitle": "Mines",
+        "updateTitle": "Update"
+    },
+    "gameSettings": {
+        "setting": "Settings",
+        "update": "Update",
+        "close": "Close",
+        "firstClick": "First click on empty cell",
+        "interrogations": "'?' symbol enabled",
+        "language": "Language",
+        "spanish": "ES",
+        "english": "EN",
+        "theme": "Theme"
+    },
+    "languageSelector": {
+        "changeLanguage": "ES",
+        "changeLanguageTitle": "Change language to Spanish"
+    },
+    "themeSelector": {
+        "light": "Light",
+        "dark": "Dark",
+        "themeSelectorTitle": "Change theme"
+    },
+    "login": {
+        "title": "Login",
+        "username": "Username",
+        "password": "Password",
+        "submit": "Login",
+        "register": "Register",
+        "show": "Show",
+        "hide": "Hide",
+        "failedLogin": "Login failed, please try again",
+        "failedRegister": "Register failed, please try again",
+        "emptyUsername": "Username is required",
+        "emptyPassword": "Password is required",
+        "strongPassword": "Password is not strong enough",
+        "longUsername": "Username cannot be longer than 15 characters"
+    },
+    "helpMessage": {
+        "firstClick": "Start the game",
+        "noHelp": "There is no help"
+    },
+    "finishGame": {
+        "win": "YOU WIN",
+        "continue": "Continue",
+        "time": "Time",
+        "bestTime": "Best personal time",
+        "newBestTime": "New personal best time",
+        "bestTimeGlobal": "Best world time",
+        "newBestTimeGlobal": "New best world time",
+        "help": "Help",
+        "helpTitle": "Help used",
+        "3bv": "3BV",
+        "3bvTitle": "3BV is the minimum number of clicks needed to complete the game",
+        "clicks": "Clicks",
+        "clicksTitle": "Total number of clicks",
+        "efficiency": "Efficiency",
+        "efficiencyTitle": "Click efficiency (3BV / clicks)",
+        "noAuth": "To save the game Login or Register"
+    },
+    "ranking": {
+        "username": "Username",
+        "date": "Date",
+        "stats": "Statistics",
+        "rows": "Rows",
+        "cols": "Cols",
+        "mines": "Mines",
+        "update": "Update",
+        "noGames": "No games found",
+        "lookStats": "See",
+        "bestTime": "Best game stats",
+        "randomTime": "Ranking game statistics Nº",
+        "personalRanking": "Personal ranking",
+        "globalRanking": "World ranking",
+        "orderBy": "Order by",
+        "position": "My rank",
+        "errorMessage": "Error loading ranking, please try again"
+    },
+    "loading": {
+        "loading": "Loading"
+    },
+    "error": {
+        "goHome": "Go Home"
+    }
+}
