@@ -1,0 +1,11 @@
+# Build folders
+bin/
+obj/
+.vs/
+
+# User-specific files
+*.user
+*.suo
+
+# Secrets / Configuration
+appsettings.*.json
