@@ -155,7 +155,8 @@ builder.Services.AddCors(options =>
         {
             policy.WithOrigins(
                 "http://localhost:5173",
-                "https://buscaminassa.com"
+                "https://buscaminassa.com",
+                "https://www.buscaminassa.com"
                 ) 
                   .AllowAnyHeader()
                   .AllowAnyMethod()
@@ -170,11 +171,6 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
     app.MapScalarApiReference();
-}
-
-if (!app.Environment.IsDevelopment())
-{
-    app.UseHttpsRedirection();
 }
 
 app.UseCors("AllowFrontend");
