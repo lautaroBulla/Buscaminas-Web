@@ -49,16 +49,16 @@ namespace Backend.Controllers
             Response.Cookies.Append("Authentication", result.AccessToken, new CookieOptions
             {
                 HttpOnly = true,
-                Secure = false, //true en produccion
-                SameSite = SameSiteMode.Lax, //esto tiene que ir en Strict en produccion
+                Secure = true, 
+                SameSite = SameSiteMode.Lax, 
                 Expires = DateTimeOffset.UtcNow.AddHours(1)
             });
 
             Response.Cookies.Append("Refresh", result.RefreshToken, new CookieOptions
             {
                 HttpOnly = true,
-                Secure = false, //true en produccion
-                SameSite = SameSiteMode.Lax, //esto tiene que ir en Strict en produccion
+                Secure = true, 
+                SameSite = SameSiteMode.Lax, 
                 Expires = DateTimeOffset.UtcNow.AddDays(7)
             });
 
@@ -81,16 +81,16 @@ namespace Backend.Controllers
             Response.Cookies.Append("Authentication", result.AccessToken, new CookieOptions
             {
                 HttpOnly = true,
-                Secure = false, //true en produccion
-                SameSite = SameSiteMode.Lax, //esto tiene que ir en Strict en produccion
+                Secure = true, 
+                SameSite = SameSiteMode.Lax, 
                 Expires = DateTimeOffset.UtcNow.AddHours(1)
             });
 
             Response.Cookies.Append("Refresh", result.RefreshToken, new CookieOptions
             {
                 HttpOnly = true,
-                Secure = false, //true en produccion
-                SameSite = SameSiteMode.Lax, //esto tiene que ir en Strict en produccion
+                Secure = true, 
+                SameSite = SameSiteMode.Lax, 
                 Expires = DateTimeOffset.UtcNow.AddDays(7)
             });
 
@@ -125,7 +125,7 @@ namespace Backend.Controllers
             Response.Cookies.Append("Authentication", newAccessToken, new CookieOptions
             {
                 HttpOnly = true,
-                Secure = false, //true en produccion
+                Secure = true, 
                 SameSite = SameSiteMode.Lax,
                 Expires = DateTimeOffset.UtcNow.AddDays(1)
             });
@@ -158,15 +158,15 @@ namespace Backend.Controllers
             Response.Cookies.Append("Authentication", "", new CookieOptions
             {
                 HttpOnly = true,
-                Secure = false, //true en produccion
-                SameSite = SameSiteMode.Lax, //esto tiene que ir en Strict en produccion
+                Secure = true, 
+                SameSite = SameSiteMode.Lax, 
                 Expires = DateTimeOffset.UtcNow.AddDays(-1)
             });
             Response.Cookies.Append("Refresh", "", new CookieOptions
             {
                 HttpOnly = true,
-                Secure = false, //true en produccion
-                SameSite = SameSiteMode.Lax, //esto tiene que ir en Strict en produccion
+                Secure = true, 
+                SameSite = SameSiteMode.Lax, 
                 Expires = DateTimeOffset.UtcNow.AddDays(-1)
             });
             return Ok();

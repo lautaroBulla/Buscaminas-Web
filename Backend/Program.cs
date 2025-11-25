@@ -14,8 +14,11 @@ builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
+//builder.Services.AddDbContext<AppDbContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("BuscaminasDBConnection")));
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("BuscaminasDBConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("BuscaminasDBConnection")));
+
 
 builder.Services.AddAuthentication(options =>
     {
@@ -152,7 +155,8 @@ builder.Services.AddCors(options =>
         {
             policy.WithOrigins(
                 "http://localhost:5173",
-                "https://buscaminassa.com"
+                "https://buscaminassa.com",
+                "https://www.buscaminassa.com"
                 ) 
                   .AllowAnyHeader()
                   .AllowAnyMethod()
@@ -167,11 +171,6 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
     app.MapScalarApiReference();
-}
-
-if (!app.Environment.IsDevelopment())
-{
-    app.UseHttpsRedirection();
 }
 
 app.UseCors("AllowFrontend");
