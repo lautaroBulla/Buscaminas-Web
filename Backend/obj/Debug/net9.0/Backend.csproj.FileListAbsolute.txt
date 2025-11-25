@@ -328,3 +328,6 @@ C:\Users\lauta\OneDrive\Documentos\GitHub\Buscaminas-Web\Backend\Backend\obj\Deb
 C:\Users\lauta\OneDrive\Documentos\GitHub\Buscaminas-Web\Backend\Backend\obj\Debug\net9.0\Backend.pdb
 C:\Users\lauta\OneDrive\Documentos\GitHub\Buscaminas-Web\Backend\Backend\obj\Debug\net9.0\Backend.genruntimeconfig.cache
 C:\Users\lauta\OneDrive\Documentos\GitHub\Buscaminas-Web\Backend\Backend\obj\Debug\net9.0\ref\Backend.dll
+C:\Users\lauta\OneDrive\Documentos\GitHub\Buscaminas-Web\Backend\Backend\obj\Debug\net9.0\Backend.sourcelink.json
+C:\Users\lauta\OneDrive\Documentos\GitHub\Buscaminas-Web\Backend\Backend\bin\Debug\net9.0\Npgsql.dll
+C:\Users\lauta\OneDrive\Documentos\GitHub\Buscaminas-Web\Backend\Backend\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
