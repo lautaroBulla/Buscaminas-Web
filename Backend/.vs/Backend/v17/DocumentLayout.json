@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend\\",
+  "WorkspaceRootPath": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend2\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{51220ED7-B0D2-4403-B616-806536342B24}|Backend.csproj|c:\\users\\lauta\\onedrive\\documentos\\github\\buscaminas-web\\backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+=======
+      "AbsoluteMoniker": "D:0:0:{51220ED7-B0D2-4403-B616-806536342B24}|Backend.csproj|c:\\users\\lauta\\onedrive\\documentos\\github\\buscaminas-web\\backend2\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+>>>>>>> a35cffb3e3344fbdc0ba98f65eae3c0be49b23fb
       "RelativeMoniker": "D:0:0:{51220ED7-B0D2-4403-B616-806536342B24}|Backend.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -20,9 +24,15 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Dockerfile",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend\\Dockerfile",
+=======
+              "DocumentMoniker": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend2\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend2\\Dockerfile",
+>>>>>>> a35cffb3e3344fbdc0ba98f65eae3c0be49b23fb
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",

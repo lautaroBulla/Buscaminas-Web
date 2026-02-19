@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend\\Backend.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\lauta\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend\\obj\\",
+=======
+    "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend2\\Backend.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend2\\Backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend2\\Backend.csproj",
+        "projectName": "Backend",
+        "projectPath": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend2\\Backend.csproj",
+        "packagesPath": "C:\\Users\\lauta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend2\\obj\\",
+>>>>>>> a35cffb3e3344fbdc0ba98f65eae3c0be49b23fb
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -108,7 +122,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+>>>>>>> a35cffb3e3344fbdc0ba98f65eae3c0be49b23fb
         }
       }
     }

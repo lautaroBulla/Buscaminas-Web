@@ -74,6 +74,11 @@
       if (games.value.length > 0) areGames.value = true;
       if (isMobile.value) await getGame();
       
+<<<<<<< HEAD
+=======
+      console.log(response);
+      
+>>>>>>> a35cffb3e3344fbdc0ba98f65eae3c0be49b23fb
       position.value = response.myPosition.position;
       totalPositions.value = response.myPosition.total;
 
