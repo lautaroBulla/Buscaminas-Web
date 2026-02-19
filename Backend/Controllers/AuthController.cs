@@ -50,7 +50,7 @@ namespace Backend.Controllers
             {
                 HttpOnly = true,
                 Secure = true, 
-                SameSite = SameSiteMode.Lax, 
+                SameSite = SameSiteMode.None, 
                 Expires = DateTimeOffset.UtcNow.AddHours(1)
             });
 
@@ -58,7 +58,7 @@ namespace Backend.Controllers
             {
                 HttpOnly = true,
                 Secure = true, 
-                SameSite = SameSiteMode.Lax, 
+                SameSite = SameSiteMode.None, 
                 Expires = DateTimeOffset.UtcNow.AddDays(7)
             });
 
@@ -82,7 +82,7 @@ namespace Backend.Controllers
             {
                 HttpOnly = true,
                 Secure = true, 
-                SameSite = SameSiteMode.Lax, 
+                SameSite = SameSiteMode.None, 
                 Expires = DateTimeOffset.UtcNow.AddHours(1)
             });
 
@@ -90,7 +90,7 @@ namespace Backend.Controllers
             {
                 HttpOnly = true,
                 Secure = true, 
-                SameSite = SameSiteMode.Lax, 
+                SameSite = SameSiteMode.None, 
                 Expires = DateTimeOffset.UtcNow.AddDays(7)
             });
 
@@ -126,7 +126,7 @@ namespace Backend.Controllers
             {
                 HttpOnly = true,
                 Secure = true, 
-                SameSite = SameSiteMode.Lax,
+                SameSite = SameSiteMode.None,
                 Expires = DateTimeOffset.UtcNow.AddDays(1)
             });
 
@@ -159,14 +159,14 @@ namespace Backend.Controllers
             {
                 HttpOnly = true,
                 Secure = true, 
-                SameSite = SameSiteMode.Lax, 
+                SameSite = SameSiteMode.None, 
                 Expires = DateTimeOffset.UtcNow.AddDays(-1)
             });
             Response.Cookies.Append("Refresh", "", new CookieOptions
             {
                 HttpOnly = true,
                 Secure = true, 
-                SameSite = SameSiteMode.Lax, 
+                SameSite = SameSiteMode.None, 
                 Expires = DateTimeOffset.UtcNow.AddDays(-1)
             });
             return Ok();

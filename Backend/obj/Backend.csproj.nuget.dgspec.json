@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend2\\Backend.csproj": {}
+    "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend2\\Backend.csproj": {
+    "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend2\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend2\\Backend.csproj",
+        "projectPath": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\lauta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend2\\obj\\",
+        "outputPath": "C:\\Users\\lauta\\OneDrive\\Documentos\\GitHub\\Buscaminas-Web\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -108,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
