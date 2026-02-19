@@ -45,6 +45,9 @@ jobs:
           output_location: ".output/public" # Built app content directory - optional
           github_id_token: ${{ steps.idtoken.outputs.result }}
           ###### End of Repository/Build Configurations ######
+        env: 
+          API_URL_BACKEND: https://buscaminas-api-dzhffphqegeygbbc.centralus-01.azurewebsites.net
+          SECRET_HASH: ${{ secrets.SECRET_HASH }}
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
@@ -56,3 +59,4 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           action: "close"
+
