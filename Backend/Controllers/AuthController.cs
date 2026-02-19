@@ -50,11 +50,7 @@ namespace Backend.Controllers
             {
                 HttpOnly = true,
                 Secure = true, 
-<<<<<<< HEAD
                 SameSite = SameSiteMode.None, 
-=======
-                SameSite = SameSiteMode.Lax, 
->>>>>>> a35cffb3e3344fbdc0ba98f65eae3c0be49b23fb
                 Expires = DateTimeOffset.UtcNow.AddHours(1)
             });
 
@@ -62,11 +58,7 @@ namespace Backend.Controllers
             {
                 HttpOnly = true,
                 Secure = true, 
-<<<<<<< HEAD
                 SameSite = SameSiteMode.None, 
-=======
-                SameSite = SameSiteMode.Lax, 
->>>>>>> a35cffb3e3344fbdc0ba98f65eae3c0be49b23fb
                 Expires = DateTimeOffset.UtcNow.AddDays(7)
             });
 
@@ -90,11 +82,7 @@ namespace Backend.Controllers
             {
                 HttpOnly = true,
                 Secure = true, 
-<<<<<<< HEAD
                 SameSite = SameSiteMode.None, 
-=======
-                SameSite = SameSiteMode.Lax, 
->>>>>>> a35cffb3e3344fbdc0ba98f65eae3c0be49b23fb
                 Expires = DateTimeOffset.UtcNow.AddHours(1)
             });
 
@@ -102,11 +90,7 @@ namespace Backend.Controllers
             {
                 HttpOnly = true,
                 Secure = true, 
-<<<<<<< HEAD
                 SameSite = SameSiteMode.None, 
-=======
-                SameSite = SameSiteMode.Lax, 
->>>>>>> a35cffb3e3344fbdc0ba98f65eae3c0be49b23fb
                 Expires = DateTimeOffset.UtcNow.AddDays(7)
             });
 
@@ -142,11 +126,7 @@ namespace Backend.Controllers
             {
                 HttpOnly = true,
                 Secure = true, 
-<<<<<<< HEAD
                 SameSite = SameSiteMode.None,
-=======
-                SameSite = SameSiteMode.Lax,
->>>>>>> a35cffb3e3344fbdc0ba98f65eae3c0be49b23fb
                 Expires = DateTimeOffset.UtcNow.AddDays(1)
             });
 
@@ -179,22 +159,14 @@ namespace Backend.Controllers
             {
                 HttpOnly = true,
                 Secure = true, 
-<<<<<<< HEAD
                 SameSite = SameSiteMode.None, 
-=======
-                SameSite = SameSiteMode.Lax, 
->>>>>>> a35cffb3e3344fbdc0ba98f65eae3c0be49b23fb
                 Expires = DateTimeOffset.UtcNow.AddDays(-1)
             });
             Response.Cookies.Append("Refresh", "", new CookieOptions
             {
                 HttpOnly = true,
                 Secure = true, 
-<<<<<<< HEAD
                 SameSite = SameSiteMode.None, 
-=======
-                SameSite = SameSiteMode.Lax, 
->>>>>>> a35cffb3e3344fbdc0ba98f65eae3c0be49b23fb
                 Expires = DateTimeOffset.UtcNow.AddDays(-1)
             });
             return Ok();
